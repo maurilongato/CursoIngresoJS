@@ -1,7 +1,22 @@
 function mostrar()
 {
+var repeticiones;
+var cantRepeticiones;
+var numeroRepeticiones;
+var mensaje = "Hola UTNfra";
 
-var repetciones = prompt("ingrese el número de repeticiones");
+repeticiones = parseInt(repeticiones);
+numeroRepeticiones = parseInt(numeroRepeticiones);
+
+repeticiones = prompt("Ingrese el número de repeticiones");
+
+    for(numeroRepeticiones = 0; repeticiones < numeroRepeticiones; cantRepeticiones++){
+
+        document.write(mensaje);
+            break;
+
+    }   
+
 
 
 
