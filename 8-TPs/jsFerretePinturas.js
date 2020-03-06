@@ -8,10 +8,9 @@ function FahrenheitCentigrados ()
     var resultado;
 
     temperatura = parseInt(document.getElementById("Temperatura").value);
-    resultado = parseInt(resultado);
     
     resultado = temperatura - 32;
-    alert(resultado + " F " +" son " + temperatura + " Centigrados ");  
+    alert(resultado + " F " + " son " + temperatura + " Centigrados ");  
 }
 
 function CentigradosFahrenheit () 
@@ -20,7 +19,6 @@ function CentigradosFahrenheit ()
     var resultado;
 
     temperatura = parseInt(document.getElementById("Temperataura").value);
-    resultado = parseInt(resultado);
 
     resultado = temperatura * (5/9);
     alert(resultado + " Centigrados ");

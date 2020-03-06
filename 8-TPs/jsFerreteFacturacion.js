@@ -46,11 +46,10 @@ function PrecioFinal ()
     precioUno = parseInt(document.getElementById("PrecioUno").value);
     precioDos = parseInt(document.getElementById("PrecioDos").value);
     precioTres = parseInt(document.getElementById("PrecioTres").value);
-    preciototal = parseInt(preciototal);
 
-    Preciototal = precioUno + precioDos + precioTres;
+    preciototal = (precioUno + precioDos + precioTres);
 
-    precioFinal = preciototal * 1.21;
+    precioFinal = parseInt(preciototal * 1.21);
     
     alert(precioFinal);
 
